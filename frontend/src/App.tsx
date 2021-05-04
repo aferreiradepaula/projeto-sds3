@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>E aí mudão gordo sem fronteira!!!</h1>
+      <h1 className="text-primary">E aí mudão gordo sem fronteira!!!</h1>
     </div>
   );
 }
