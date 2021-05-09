@@ -9,16 +9,17 @@ export type Sale = {
     seller: Seller;
 }
 
+// o ? significa que o  campo eh opcional
 export type SalePage = {
-    content: Sale[];
+    content?: Sale[];
     last: boolean;
     totalPages: number;
     totalElements: number;
     first: boolean;
     number: number;
-    numberOfElements: number;
-    size: number;
-    empty: boolean;
+    numberOfElements?: number;
+    size?: number;
+    empty?: boolean;
 
 }
 
